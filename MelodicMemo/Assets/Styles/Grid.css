@@ -1,0 +1,97 @@
+/* CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin: auto;
+    /*REM (short for “root-em”)  units dictate an element's font size relative to the size of the root element */
+    padding: 0 1rem;
+}
+
+.container .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: .5rem -.5rem 0;
+}
+
+.container .row [class*="column-"]{
+    margin: 0 0.5rem;
+    padding: .5rem;
+}
+
+/* This is madness*/
+.container .row .column-1{
+    /* calc uses 1/12 of the size*/
+    width: calc(1 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-2{
+    /* calc uses 1/12 of the size*/
+    width: calc(2 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-3{
+    /* calc uses 1/12 of the size*/
+    width: calc(3 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-4{
+    /* calc uses 1/12 of the size*/
+    width: calc(4 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-5{
+    /* calc uses 1/12 of the size*/
+    width: calc(5 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-6{
+    /* calc uses 1/12 of the size*/
+    width: calc(6 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-7{
+    /* calc uses 1/12 of the size*/
+    width: calc(7 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-8{
+    /* calc uses 1/12 of the size*/
+    width: calc(8 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-9{
+    /* calc uses 1/12 of the size*/
+    width: calc(9 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-10{
+    /* calc uses 1/12 of the size*/
+    width: calc(10 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-11{
+    /* calc uses 1/12 of the size*/
+    width: calc(11 / 12 * 100% - 1rem);
+
+}
+
+.container .row .column-12{
+    /* calc uses 1/12 of the size*/
+    width: calc(12 / 12 * 100% - 1rem);
+
+}
