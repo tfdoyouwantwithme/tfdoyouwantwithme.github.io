@@ -157,14 +157,8 @@ ul {
 
 footer{
     background-color: #00A376;
-    display: flex;
     color: #FAF6DA;
-    /*padding: 1.11em 0;*/
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    
+    /*padding: 1.11em 0;*/    
 }
 
 footer a{
@@ -513,12 +507,11 @@ margin-top:30em;
 
 
 .Sections{
-    position: absolute;
     background-color: #0A837E;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     padding: 0 1em;
-    margin: 3em 40em;
+    margin: 3em auto;
     text-align: center;
 }
 
@@ -529,12 +522,11 @@ margin-top:30em;
 
 .section1{
     padding: 1em;
-    margin-top: 20em;
     
 }
 
-.section1 p{
-    display: inline;
+.article-par{
+    margin-top: 1em;
 }
 
 .section2{
@@ -542,6 +534,8 @@ margin-top:30em;
     margin: auto;
 }
 
-
-
-
+.center-vertically {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
