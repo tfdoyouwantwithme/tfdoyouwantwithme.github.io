@@ -478,8 +478,9 @@ footer a{
     margin-bottom: 1em;
 }
 
-.article-par{
-margin-top:30em;
+.article-Par p{
+text-align: justify;
+font-size: 1.5em;
 
 }
 
@@ -525,10 +526,6 @@ margin-top:30em;
     
 }
 
-.article-par{
-    margin-top: 1em;
-}
-
 .section2{
     position: absolute;
     margin: auto;
@@ -539,3 +536,4 @@ margin-top:30em;
     display: flex;
     justify-content: center;
 }
+
