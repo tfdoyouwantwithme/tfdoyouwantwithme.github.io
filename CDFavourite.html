@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>MelodicMemo | CD Favourites</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Images/icons8-vinyl-16.png">
+    
+    <link rel="stylesheet" href="Assets/Styles/Style.css">
+    <link rel="stylesheet" href="Assets/Styles/Grid.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    
+    <div class="container">
+        <nav class="navbar">
+            <div class="row">
+                <div class="column-10">
+                    <div class="dropdown">
+                        <button class="dropdown-button">COLLECTIONS &#9660;</button>
+                        <i class="fa fa-caret-down"></i>
+                        <div class="dropdown-content">
+                            <a href="Vinyl.html">VINYL</a>
+                            <a href="CD.html">CDS</a>
+                        </div>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li>
+                            <a href="Blog.html">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="About.html">ABOUT ME</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column-2">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="Assets/Images/MelodicMemoLogo.png" alt=""  >
+                    </a>        
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    
+    <!--Title-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="column-5"></div>
+            <h1 class="about-title">CD COLLECTION</h1">
+            </div>
+        </div>
+        
+        <!--Gallery-->
+        
+        <div class="container">
+            <div class="row">
+                <div class="column-12">
+                    
+                    <div class="slide-container">
+                        
+                        <!--Banner controls(hidden)-->
+                        <input class="hidden" type="radio" name="banner-controls" id="sld-1-ctrl" checked>
+                        <input class="hidden" type="radio" name="banner-controls" id="sld-2-ctrl">
+                        <input class="hidden" type="radio" name="banner-controls" id="sld-3-ctrl">
+                        <input class="hidden" type="radio" name="banner-controls" id="sld-4-ctrl">
+                        <input class="hidden" type="radio" name="banner-controls" id="sld-5-ctrl">
+                        
+                        
+                        <!-- Slides and Images-->
+                        
+                        <div class="slide-content">
+                            
+                            <div class="slide-item" id="slide-1" 
+                            style="background-image: url(Assets/Images/CD_\ \(2\).png);"></div>
+                            <div class="slide-item" id="slide-2" 
+                            style="background-image: url(Assets/Images/CD_\ \(3\).png);"></div>
+                            <div class="slide-item" id="slide-3" 
+                            style="background-image: url(Assets/Images/CD_\ \(4\).png);"></div>
+                            <div class="slide-item" id="slide-4" 
+                            style="background-image: url(Assets/Images/CD_\ \(5\).png);"></div>
+                            <div class="slide-item" id="slide-5" 
+                            style="background-image: url(Assets/Images/CD_\ \(1\).png);"></div>
+                            
+                            <!-- Next and previous buttons -->
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+                        </div>
+                        <br>
+                        
+                        <!-- The dots/circles -->
+                        <div class="slide-nav">
+                            <label for="sld-1-ctrl" class="nav-dot" id="sld-1-dot">
+                                <i class="nav-dot-inner"></i>
+                            </label>
+                            <label for="sld-2-ctrl" class="nav-dot" id="sld-2-dot">
+                                <i class="nav-dot-inner"></i>
+                            </label>
+                            <label for="sld-3-ctrl" class="nav-dot" id="sld-3-dot">
+                                <i class="nav-dot-inner"></i>
+                            </label>    
+                            <label for="sld-4-ctrl" class="nav-dot" id="sld-4-dot">
+                                <i class="nav-dot-inner"></i>  
+                            </label>    
+                            <label for="sld-5-ctrl" class="nav-dot" id="sld-5-dot">
+                                <i class="nav-dot-inner"></i>  
+                            </label> 
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="column-7">
+                            <ul class="footer-links align-left">
+                                <li><a href="Contact.html">Contact Us</a></li>    
+                                <li><a href="About.html">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column-5">
+                        
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </footer>
+    
+    
+</body>
+</html> 
